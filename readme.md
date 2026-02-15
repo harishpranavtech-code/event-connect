@@ -34,7 +34,7 @@ You will deploy a real production-ready application using:
 
   PORT=5000
 
-  MONGO_URI=mongodb+srv://eventmanager:eventPass123@cluster0.ipqqkug.mongodb.net/?appName=Cluster0
+  MONGO_URI= I will give later
   ---This is my seminar temporary connection you can use it.
 
   JWT_SECRET= (Copy the exact command and run on the terminal of backend)
