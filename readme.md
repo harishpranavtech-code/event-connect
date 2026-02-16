@@ -42,7 +42,7 @@ You will deploy a real production-ready application using:
 
   FRONTEND_URL=http://localhost:3000 [Right now use this after deploy of frontend we update on render backend deploy software]
 
-## Step 6 – Test Backend Locally
+## Step 5 – Test Backend Locally
 
 -npm start // run this command to test backend.
 
