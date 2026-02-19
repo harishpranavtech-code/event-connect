@@ -26,6 +26,9 @@ You will deploy a real production-ready application using:
 
 -npm install [It will install the dev dependencies]
 
+-- If it not works go to powershell
+Use this command [ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser ] and Give Y and go back to vscode terminal \* npm install [do it again]
+
 ## Step 4 – Create .env File
 
 - .env [for production deploy to connect mongoDB and jwt token for signup/in]
