@@ -18,7 +18,12 @@ const buildApp = (opts = {}) => {
   // Register CORS
   app.register(cors, {
     origin: (origin, cb) => {
-      if (!origin || origin.includes("vercel.app")) {
+      if (
+        !origin ||
+        origin.includes("vercel.app") ||
+        origin.includes("localhost") ||
+        origin.includes("127.0.0.1")
+      ) {
         cb(null, true);
       } else {
         cb(new Error("Not allowed"));
