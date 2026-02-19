@@ -37,7 +37,7 @@ Use this command [ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser ] and Giv
 
   PORT=5000
 
-  MONGO_URI=mongodb+srv://eventmanager:eventPass123@cluster0.ipqqkug.mongodb.net/?appName=Cluster0
+  MONGO_URI= I will give later
   ---This is my seminar temporary connection you can use it.
 
   JWT_SECRET= (Copy the exact command and run on the terminal of backend)
@@ -45,7 +45,7 @@ Use this command [ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser ] and Giv
 
   FRONTEND_URL=http://localhost:3000 [Right now use this after deploy of frontend we update on render backend deploy software]
 
-## Step 6 – Test Backend Locally
+## Step 5 – Test Backend Locally
 
 -npm start // run this command to test backend.
 
